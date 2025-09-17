@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -euo pipefail
+APP_DIR="$HOME/WT/Apps/wt-chat-editor"
+PORT="${1:-7707}"
+cd "$APP_DIR"
+python -m http.server "$PORT"

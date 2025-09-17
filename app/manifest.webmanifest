@@ -1,0 +1,8 @@
+{
+  "name": "WT Chat Editor",
+  "short_name": "WTChat",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "description": "Local-first Prompt & Agent Builder"
+}
